@@ -38,7 +38,9 @@ body {
   border-radius: 4px;
   background: linear-gradient(180deg, #307e6c, #2b996d);
 }
-
+#user-input:hover {
+  box-shadow: 5px 10px 40px rgb(77, 117, 105);
+}
 .input-group {
   display: flex;
   justify-content: space-evenly;
@@ -73,6 +75,15 @@ body {
   text-align: right;
 }
 
+#result:hover {
+  background-color: #3f5a4f;
+  border-radius: 2px 30px 2px 30px;
+  cursor: pointer;
+
+
+}
+
+
 #result thead {
   font-size: 0.7rem;
   color: #83e6c0;
@@ -85,5 +96,16 @@ body {
 }
 
 .center {
-  text-align: center;
+  text-align: center; 
+  color: rgb(151, 133, 133);
+  font-size: 2em;
+  font-size: 3em;
+  background-color: rgb(164, 43, 43);
+  box-shadow: 2px 3px 4px black;
+  border-radius: 10px;
+  max-width: 60%;
+  margin-left: 20%;
+}
+.center:hover {
+background-color: #307e6c;
 }

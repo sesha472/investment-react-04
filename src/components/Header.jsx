@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header id='header'>
       <img src={investimg} alt='ivest-img'/>
-    <h1>investment calculator</h1>
+    <h1>sesha investment calculator</h1>
     </header>
   )
 }
